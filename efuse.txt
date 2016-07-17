@@ -1,0 +1,61 @@
+avrdude: Version 5.10, compiled on Jan 19 2010 at 10:45:23
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2009 Joerg Wunsch
+
+         System wide configuration file is "C:\WinAVR\bin\avrdude.conf"
+
+         Using Port                    : com5
+         Using Programmer              : stk500v1
+         Overriding Baud Rate          : 38400
+         AVR Part                      : ATMEGA8
+         Chip Erase delay              : 10000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom         4    20   128    0 no        512    4      0  9000  9000 0xff 0xff
+           flash         33    10    64    0 yes      8192   64    128  4500  4500 0xff 0x00
+           lfuse          0     0     0    0 no          1    0      0  2000  2000 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  2000  2000 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  2000  2000 0x00 0x00
+           calibration    0     0     0    0 no          4    0      0     0     0 0x00 0x00
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : STK500
+         Description     : Atmel STK500 Version 1.x firmware
+         Hardware Version: 2
+         Firmware Version: 1.18
+         Topcard         : Unknown
+         Vtarget         : 0.0 V
+         Varef           : 0.0 V
+         Oscillator      : Off
+         SCK period      : 0.1 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.06s
+
+avrdude: Device signature = 0x1e9307
+avrdude: safemode: lfuse reads as EF
+avrdude: safemode: hfuse reads as D9
+"efuse" memory type not defined for part "ATMEGA8"
+
+avrdude: safemode: lfuse reads as EF
+avrdude: safemode: hfuse reads as D9
+avrdude: safemode: Fuses OK
+
+avrdude done.  Thank you.
